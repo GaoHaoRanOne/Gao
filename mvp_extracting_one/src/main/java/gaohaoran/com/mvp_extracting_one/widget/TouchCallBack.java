@@ -1,0 +1,14 @@
+package gaohaoran.com.mvp_extracting_one.widget;
+
+/**
+ * @author xts
+ *         Created by asus on 2019/4/19.
+ */
+
+public interface TouchCallBack {
+    //数据交换
+    void onItemMove(int fromPosition, int toPosition);
+
+    //删除条目
+    void onItemDelete(int position);
+}
